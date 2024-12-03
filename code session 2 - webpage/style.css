@@ -1,0 +1,94 @@
+/* the whole of the website. this is the background of the whole website */
+body{
+background-color: #3b241c;
+}
+
+main{
+    background-color: #551126;
+}
+
+/* Header */
+h1{
+/* from here is the styling of the header */
+color: #F5DD6C;
+font-family: 'Times New Roman', Times, serif;
+font-size:20px;
+margin-right: 20px;
+display: flex; /* from here to the end of the element is all for menu styling */
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+padding-right: 0px;
+}
+
+/* the navigation styling */
+ul{
+    list-style: none; /* this removes the bullet points to make the menu appear like buttons rather than bullet points */
+    display: flex; /* this aligns all of the menu horizontally */
+    background-color: #551126;
+    padding: 20px;
+}
+
+/* navigation button styling */
+ul li{
+    margin-left: 20px;
+}
+
+/* navigation button word styling */
+ul li a{
+    color: #F5DD6C;
+    text-decoration: none;
+    padding: 8px 16px;   
+}
+
+/* navigation button highlight styling */
+ul li a:hover{
+    text-decoration: dotted;
+    color: #551126;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: .2em .2em black;
+}
+
+/* texts and paragraphs */
+p{
+color: white;
+font-family: 'Papyrus', fantasy;
+padding: 50px;
+margin-left: 100px;
+margin-right: 100px;
+font-size: 150%;
+}
+
+iframe{
+    border-radius: 0%;
+}
+
+/* all of the images on the website */
+img{
+padding-left: 0px;
+}
+
+/* all of the links */
+a{
+    color: #F5DD6C;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 1%;
+}
+
+/* all other headings */
+h2,h3{
+    color: #F5DD6C;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 200px;
+    margin-top: 5%;
+    font-size: 40px;
+}
+
+
+
+footer{
+    
+    margin: 0%;
+    padding: 0%;
+}
