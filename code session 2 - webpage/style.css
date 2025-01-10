@@ -1,0 +1,468 @@
+/* the whole of the website. this is the background of the whole website */
+body{
+background-color: #3b241c;
+}
+
+main{
+    background-color: #551126;
+}
+
+
+
+
+
+
+/* Header */
+h1{
+/* from here is the styling of the header */
+color: #F5DD6C;
+font-family: "Modern Antiqua", serif;
+font-size:20px;
+margin-right: 20px;
+
+/* from here to the end of the element is all for menu styling */
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+padding-bottom: 0%;
+padding-right: 0px;
+text-transform: uppercase;
+}
+
+/* the navigation styling */
+h1 ul{
+    list-style: none; /* this removes the bullet points to make the menu appear like buttons rather than bullet points */
+    display: flex; /* this aligns all of the menu horizontally */
+    border: 1px solid #F5DD6C;
+    border-radius: 10px;
+    padding: 20px;
+    text-transform: none;
+}
+
+/* navigation button styling */
+h1 ul li{
+    margin-left: 20px;
+}
+
+/* navigation button word styling */
+h1 ul li a{
+    color: #F5DD6C;
+    text-decoration: none;
+    padding: 8px 16px;
+    font-family: "Modern Antiqua", serif;
+    font-weight: 400;
+    font-style: normal;   
+}
+
+/* navigation button cursor hovering styling */
+ul li a:hover{
+    text-decoration: dotted;
+    color: #551126;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: .2em .2em black;
+}
+
+
+
+
+
+/* the main body parts */
+
+/* INDEX PAGE */
+
+/* magic effect images styling in the index page */
+.section-one .magic-effect-1{
+    border: none; /* to remove the border that constantly appeared */
+}
+.section-one .magic-effect-1 img{
+    height: 200px;
+    width: 100%;
+    animation: fadeeffect 1s infinite; /* animation type */
+}
+/* keyframing of the animation effect, how and when the animation should behave */
+@keyframes fadeeffect{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+/* magic effect images styling in the index page */
+.section-one .magic-effect-2{
+    border: none;  /* to remove the border that constantly appeared */
+}
+.section-one .magic-effect-2 img{
+    height: 200px;
+    width: 100%;
+    animation: fadeeffect 2s infinite; /* animation type */
+}
+/* keyframing of the animation effect, how and when the animation should behave */
+@keyframes fadeeffect{
+    0%{
+        opacity: 0.1;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0.1;
+    }
+}
+
+/* magic effect images styling in the index page */
+.section-one .magic-effect-3{
+    border: none;  /* to remove the border that constantly appeared */
+}
+.section-one .magic-effect-3 img{
+    height: 200px;
+    width: 100%;
+    animation: fadeeffect 1s infinite;  /* animation type */
+}
+/* keyframing of the animation effect, how and when the animation should behave */
+@keyframes fadeeffect{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+/*index page, the text, rhetorical question*/
+.section-one .columns{
+color: white;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+padding: 50px;
+margin-left: 100px;
+margin-right: 100px;
+font-size: 150%;
+border: none;
+}
+
+/*index page, the flex container list of attraction sites*/
+.section-two{
+    border: none;
+}
+.section-two .columns{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    border: none;
+}
+/* targeting specific heading no.4 */
+.section-two .columns h4{
+    font-size: 30px;
+    color: #551126;
+    background-color: #F5DD6C;
+}
+/* targeting specific heading no.5 */
+.section-two .columns h5{
+    font-size: 30px;
+    color: #551126;
+    background-color: #F5DD6C;
+}
+/* targeting specific heading no.6 */
+.section-two .columns h6{
+    font-size: 30px;
+    color: #551126;
+    background-color: #F5DD6C;
+}
+/* targeting the images in the index page */
+.section-two .columns .column img{
+    width: 300px;
+    margin-top: 10px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+/* flexbox container of popular sites */
+.section-two .columns .column{
+    justify-content: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #F5DD6C;
+    border-radius: 30px;
+}
+/* flexbox container cursor hovering effect */
+.section-two .columns .column .column-column:hover{
+    background-color: white;
+    box-shadow: black .2em .2em;
+}
+
+.google-map{ /* Google Map styling */
+    border-radius: 0%;
+    padding: 50px;
+    border: 0;
+    display: flex;
+    justify-content: center;
+}
+.durham-county-map .google-map iframe{
+    width: 600px;
+    height: 450px;
+    border-radius: 10px;
+}
+/* all of the links */
+a{
+    color: #F5DD6C;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 1%;
+}
+
+
+
+
+
+/* styling of all other headings, some specifics and some together */
+h2{
+    background-color: #551126;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    color: #F5DD6C;
+    padding-left: 200px;
+    margin-top: 5%;
+    font-family: "Modern Antiqua", serif;
+    font-size: 40px;
+}
+h3,h4,h5,h6,h7,h8,h9{
+    background-color: #F5DD6C;
+    color: #3b241c;
+}
+
+h3,h4,h5,h6,h7,h8,h9{
+    color: #3b241c;
+    font-family: "Modern Antiqua", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 200px;
+    margin-top: 5%;
+    font-size: 40px;
+}
+h10{
+    background-color: #551126;
+    color: #F5DD6C;
+    padding-left: 200px;
+    margin-top: 5%;
+    font-family: "Modern Antiqua", serif;
+    font-size: 40px;
+}
+/*to create a border for the 'div' tags as base design before being specifcally removed in other places*/
+div{
+    border: #F5DD6C solid 1px;
+    margin: 20px;
+}
+
+
+
+
+
+/*about page*/
+
+
+.about-section{
+    border: none;
+}
+.about{
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+}
+.about .column{
+    border: none;
+    margin: 0px;
+    padding: 20px;
+}
+.about .column img{
+    width: 600px;
+    margin: 0px;
+    padding-left: 0px;
+}
+.about .column p{
+    font-size: 20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.about-purpose{
+    padding: 20px;
+    border: none;
+}
+.about-purpose p{
+    font-size: 20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 50px;
+}
+.about-section h5{
+    background-color: #551126;
+    color: #F5DD6C;
+}
+.about-section .harry-potter{
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.about-section .harry-potter .column{
+    border: none;
+}
+.about-section .harry-potter .column img{
+    height: 500px;
+}
+.about-section .harry-potter-video{
+    border: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.about-section .harry-potter-video .column{
+    border: none;
+}
+
+
+
+
+
+/*column layouts of attraction sites*/
+.attraction-sites{
+    border: none;
+}
+.attraction-site{
+    padding: 100px;
+    margin: 100px;
+    border: none;
+    background-color: #F5DD6C;
+    border-radius: 50px;
+}
+.attraction-site .columns{
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    border: none;
+}
+.attraction-site .columns .column{
+    flex: 1;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+.attraction-site .columns .column img{
+    width: 700px;
+    margin: 0px;
+}
+.attraction-site .columns .column p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    padding:20px;
+    margin: 0%;
+    color: black;
+}
+
+/* list of the other potential sites users could visit */
+
+ul li{
+    margin-right: 10px;
+    padding: 0%;
+    font-size: 20px;
+    justify-content: space-around;
+    display: flex;
+    list-style: none;
+    color: white;
+}
+.other-attraction-sites{
+    padding: 100px;
+    margin: 100px;
+    justify-content: center;
+    border: none;
+}
+.other-attraction-sites ul li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+
+/* styling of description list of places to eat and drink page */
+dl{ /* styling of the name of the restaurants cafes */
+    margin: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #F5DD6C;
+    border: #F5DD6C solid 1px;
+}
+dt{ /* styling of the name of the restaurants and cafes */
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+dd{ /* styling of the description of the restaurants and cafes */
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.other-restaurants ul li{ /* styling of the list of other restaurants and cafes */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+
+footer{
+    margin: 1px;
+    padding: 0px;
+    color: #F5DD6C;
+    background-color: #3b241c;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-top: #F5DD6C solid 1px;
+}
+nav{
+    display: inline-flex;
+    padding: 50px;
+    
+}
+nav ul b{
+    display: inline-flex;
+}
+nav ul li a{
+    color:#3b241c;
+    background-color:#F5DD6C;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 10px;
+}
